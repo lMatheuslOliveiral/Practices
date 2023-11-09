@@ -92,5 +92,21 @@ body {
     padding-top: 50px;
     font-family: 'Sarala', sans-serif;
     font-size: 20px;
+    margin-bottom: 20px;
     color: #ECD6C4;
 }
+
+.conteudo-secundario-paragrafo {
+    color: white;
+}
+
+.rodape {
+    border-top: 0.2px solid #FFF2E7;
+    padding: 50px;
+}
+
+.rodape-imagem {
+    display: block;
+    margin: 0 auto;
+}
+
