@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #202020;
+}
+
+.cabecalho-nav {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-nav-item {
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 110px;
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.conteudo-texto-titulo {
+    font-family: 'Bebas Neue', sans-serif;;
+    color: #FFF;
+    font-size: 65px;
+}
+
+.conteudo-texto-paragrafo {
+    color: #FFF;
+}
+
+.conteudo-imagem {
+    width: 100%;
+    width: 600px;
+}
