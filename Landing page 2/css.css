@@ -38,7 +38,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 110px;
+    margin: 80px;
 }
 
 .conteudo-texto {
@@ -50,7 +50,7 @@ body {
 .conteudo-texto-titulo {
     font-family: 'Bebas Neue', sans-serif;
     color: #FFF;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .conteudo-texto-titulo strong {
@@ -62,10 +62,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.conteudo-texto-botao {
+    width: 120px;
+    background: none;
+    border: #FFF;
+}
+
 .conteudo-imagem {
     width: 100%;
-    width: 600px;
+    width: 500px;
 }
+
+
+
 
 .footer {    
     display: block;
