@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;700&family=Montserrat:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +7,16 @@
     text-decoration: none;
 }
 
+
 body {
     background-color: #181012;
 }
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
 
 .header {
     display: flex;
