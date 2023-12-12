@@ -19,21 +19,65 @@ html {
 
 
 .header {
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 
-    padding: 15px;
+    padding: 15px 200px;
     background-color: #1F1517;
 
 }
 
+.header-nav {
+    max-width: 1120px;
+    margin: auto;
+
+}
+
 .header-nav-item {
-    color: white;
     padding: 0px 15px;
+    color: rgba(255, 242, 231, 0.50);
+    font-size: .80rem;
+}
+
+.header-nav-item:hover{
+    color: #FFF2E7;
+    transition: 0.4s;
 }
 
 .header-nav-github-link {
-    color: white;
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-section1-texts {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-section1-texts-novidade {
+    color: #A45A49;
+    font-family: 'Epilogue';
+    
+}
+
+.main-section1-texts-title{
+    color: #FFF;
+}
+
+.main-section1-texts-paragraph{
+    color: #C7BAB3;
 }
