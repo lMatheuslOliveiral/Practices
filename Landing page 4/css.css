@@ -143,9 +143,16 @@ h2 {
     font-size: 12px;
 }
 
+.all-cards {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-section2-card-container {
+    column-count: 2;
     max-width: 1120px;
     margin: auto;
+    
 }
 
 .main-section2-card {
@@ -153,7 +160,7 @@ h2 {
     
     border-radius: 7px;
     margin: 10px 0px;
-    width: 50%;
+   
 }
 
 .main-section2-card-header {
