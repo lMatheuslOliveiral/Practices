@@ -122,12 +122,13 @@ hr {
 .main-section2-text {
     max-width: 1120px;
     margin: auto;
+    padding: 20px 0px 20px 0px ;
 }
 
 .receitas {
     color: #A45A49;
     font-family: 'Epilogue';
-    font-size: 10px;
+    font-size: 13px;
     font-weight: normal;
 }
 
@@ -140,7 +141,7 @@ h2 {
 .text {
     color: #C7BAB3;
     font-family: 'Inter';
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .all-cards {
@@ -152,21 +153,20 @@ h2 {
     column-count: 2;
     max-width: 1120px;
     margin: auto;
+    padding: 15px;
     
 }
 
 .main-section2-card {
     background-color: #181012;
-    
     border-radius: 7px;
-    margin: 10px 0px;
-   
+    padding: 15px;
+    margin-bottom: 18px;
 }
 
 .main-section2-card-header {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
 }
 
 .alta {
@@ -203,4 +203,38 @@ h3 {
     color: #C7BAB3;
     font-family: 'Inter';
     font-size: 13px;
+}
+
+.carregar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C7BAB3;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 40px;
+}
+
+.copyright {
+    color: #C7BAB3;
+    font-family: 'Inter';
+    font-size: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.finish {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: 'Inter';
+    font-size: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
