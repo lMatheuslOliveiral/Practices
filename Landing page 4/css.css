@@ -238,3 +238,38 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1010px) {
+    
+   
+    .main-section2-card-container {
+        column-count: none;
+        max-width: none;
+        margin: none;
+        padding: 15px;
+        
+    }
+
+
+
+    .main-section1 {
+        flex-direction: column;
+    }
+
+    /* Header */
+    .header-nav, .header-nav-github {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-section2-card {
+        min-width: 500px;
+    }
+
+
+}
