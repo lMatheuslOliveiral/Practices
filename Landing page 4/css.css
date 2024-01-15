@@ -144,6 +144,8 @@ h2 {
     font-size: 16px;
 }
 
+/* Outra parte do main */
+
 .all-cards {
     display: flex;
     flex-direction: column;
@@ -151,7 +153,7 @@ h2 {
 
 .main-section2-card-container {
     column-count: 2;
-    max-width: 1120px;
+   /* max-width: 1120px;  apenas para salvar*/  
     margin: auto;
     padding: 15px;
     
@@ -240,36 +242,32 @@ footer {
 }
 
 @media screen and (max-width: 1010px) {
-    
-   
-    .main-section2-card-container {
-        column-count: none;
-        max-width: none;
-        margin: none;
-        padding: 15px;
-        
+
+    .header {
+        justify-content: center;
+
     }
 
-
-
-    .main-section1 {
-        flex-direction: column;
-    }
-
-    /* Header */
     .header-nav, .header-nav-github {
+        display: none;
+    
+    }
+
+    .main-section1-assets {
         display: none;
     }
 
 
-
-}
-
-@media screen and (max-width: 800px) {
-
-    .main-section2-card {
-        min-width: 500px;
+    .main-section2-card-container {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        
     }
 
+
+    .main-section2-card-header, h3 , p {
+        font-size: 13px;
+    }
 
 }
