@@ -60,6 +60,7 @@ main {
     max-width: 1120px;
     height: 60vh;
     margin: auto;
+    padding: 25px;
 
     display: flex;
     flex-direction: row;
@@ -109,6 +110,7 @@ hr {
    max-width: 45%;
    column-count: 4;
    margin: -16px;
+   padding-right: 10px;
 }
 
 .main-section1-assets > figure > img {
@@ -122,7 +124,7 @@ hr {
 .main-section2-text {
     max-width: 1120px;
     margin: auto;
-    padding: 20px 0px 20px 0px ;
+    padding: 20px 0px 10px 25px ;
 }
 
 .receitas {
@@ -186,12 +188,13 @@ h3 {
     color: #756A67;
     font-family: 'Inter';
     font-size: 13px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .extra2 {
     color: #C7BAB3;
     margin-left: 15px;
+    margin-top: 10px;
 }
 
 .part-final {
@@ -214,6 +217,7 @@ h3 {
     color: #C7BAB3;
     font-size: 13px;
     margin-bottom: 30px;
+    margin-top: -10px;
 }
 
 footer {
@@ -241,6 +245,8 @@ footer {
     align-items: center;
 }
 
+
+
 @media screen and (max-width: 1010px) {
 
     .header {
@@ -253,15 +259,38 @@ footer {
     
     }
 
+    .main {
+        justify-content: center;
+    }
+
+    .main-section1 {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .main-section1-texts {
+        margin: auto;
+        width: 75%;
+    }
+
     .main-section1-assets {
         display: none;
     }
 
+   .main-section2-text {
+        justify-content: center;
+        width: 60%;
+        padding: 20px 0px 10px 0px;
+   }
+
+   .text {
+    margin-top: 5px;
+   }
 
     .main-section2-card-container {
         display: flex;
         flex-direction: column;
-        width: 75%;
+        width: 80%;
         
     }
 
